@@ -1,0 +1,36 @@
+#wrapper{
+	
+	width: 500px;
+	margin: 0px auto;
+	padding: 10px;
+	
+	text-align: justify;
+}
+#wrapper > div{
+	margin-bottom: 15px;
+}
+#wrapper p{
+	margin-bottom: 5px;
+}
+
+.subheader, .date{
+	font-weight: bold;
+}
+.topic{
+	font-size: 16pt;
+}
+.desc{
+	font-size: 12pt;
+}
+.title{
+	font-size: 16pt;
+}
+
+textarea.form-control{
+	width: 100%;
+	padding: 5px 10px;
+	min-height: 200px;
+	resize: vertical;
+	text-align: justify;
+	
+}
